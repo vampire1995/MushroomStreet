@@ -1,0 +1,64 @@
+*{margin: 0; padding: 0;}
+.one{width: 350px; height: 350px; border: 1px solid #CCCCCC; position: relative;}
+.one span{
+	width: 175px;
+	height: 175px;
+	position: absolute;
+	border: 1px solid #AFAFAF;
+	top: 0;
+	left: 0;
+	display: none
+}
+.one:hover span{display:block; background-image:url(../img/bg.png)}
+.wai{float: left; margin-top: 140px; margin-left: 200px;}
+.two{ padding: 30px 0 0 50px;
+display: none;
+
+}
+.two img{border: 1px solid #ccc;}
+.two .active{border: 1px solid red;}
+.two img:hover{border: 1px solid red;}
+.the{
+	width: 400px;
+	height: 400px;
+	position: relative;
+	float: left;
+	overflow: hidden;
+	border: 1px solid #969696;
+	display: none;
+	margin-top: 100px;
+	position: relative;
+	z-index: 1;
+}
+.the img{position: absolute; display: block;}
+
+.img1{
+	position: absolute;
+	top: 137px;
+	z-index: -1;
+	left: 582px;
+}
+.img2{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	
+}
+.img3{
+	position: fixed;
+	right: 0px;
+}
+.button{
+	position: absolute;
+	background: red;
+	height: 30px;
+	width: 80px;
+	margin-top: 500px;
+margin-left: 713px;
+display: block;
+margin-bottom: 30px;}
+.jt{
+	position: absolute;
+	margin-top: 550px;
+}
+

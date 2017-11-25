@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="../style/reg.css">
+    <script src="../js/jquery.js"></script>
+     <script src="../js/jquery.idcode.js"></script>
+    <script src="../js/reg.js"></script>
+    <script src="../js/jquery.cookie.js"></script>
+</head>
+<body>
+<div class="header">
+
+    <div class="topMain">
+        <div class="logo">
+            <img src="../img/mushroom.png">
+        </div>
+
+        <div class="stepCar">
+            <img src="../images/stepCar.png" alt="">
+        </div>
+    </div>
+
+</div>
+
+<div class="regMain clear">
+    <div class="regLeft">
+        <img src="../images/regleft.png" alt="">
+    </div>
+
+    <div class="regRight clear">
+        <h3>新用户注册</h3>
+        <span>
+            已有蘑菇街账号，
+            <a href="login.html">直接登录</a>
+        </span>
+        <form action="">
+            <ul>
+                <!--账号-->
+                <li>
+                    <input type="text" name="uname" id="username" placeholder="请输入用户名" class="user"/>
+                    <p id="username_err"></p>
+                </li>
+                <!--密码-->
+                <li>
+                    <input type="password" name="upwd" id="pwd" placeholder="请输入密码" class="pass"/>
+                    <p id="pwd_err"></p>
+                </li>
+                <li>
+                    <input type="password" name="pwdc" id="pwdc" placeholder="请再次输入密码" class="passc"/>
+                    <p id="pwdc_err"></p>
+                </li>
+                <!--验证码-->
+                <li class="clear">
+                    <input type="text" class="code" value="验证码" maxlength="4" name="code" id="code"/>
+                    <span id="idcode"></span>
+                    <a href="#" id="change">换一张</a>
+                    <p class="code_err"></p>
+                </li>
+
+                <li class="clear">
+                    <input type="checkbox" name="check" checked="checked" id="check"/>
+                    已阅读并同意
+                    <a href="#">《蘑菇街注册协议及交易条款》</a>
+                </li>
+                <li>
+                    <input type="button" value="立即注册" class="btn" id="btn"/>
+                </li>
+
+            </ul>
+        </form>
+    </div>
+</div>
+
+<!--背景图片部分-->
+         <div class="img">
+         	<img src="../img/img.png">
+         </div>
+         	<div class="bg">
+         		
+         	</div>
+
+
+
+
+</body>
+</html>

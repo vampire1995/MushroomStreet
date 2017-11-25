@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<link rel="stylesheet" type="text/css" href="css/cart.css"/>
+		<link rel="stylesheet" href="css/cart1.css"/>
+	</head>
+	<body>
+
+<!--------内容---------------->
+<div id="content" class="margin">
+			<div class="logo-up">
+				<div class="up-l">
+					<i></i>
+					<span>您还没有登录 ! 登录后购物车的商品将保存到您账号中</span>
+					<a href="../login/login.html">立即登录</a>
+				</div>
+				<div class="up-r">
+					<span>配送至:</span>
+					<p>杭州千峰公司 ></p>
+				</div>
+			</div>
+		<!-----购物车------->
+		<div class="cart-wrap" style="display: block;">
+                <div class="w">
+                    <div id="jd-cart">
+                        <div class="cartmain">
+                            <div class="cart-thead">
+                                <div class="cart-col t-checkbox">
+                                    <div class="cart-checkbox">
+                                        <input type="checkbox" checked="" name="" id="" class="allsel" value="" /> 全选
+                                    </div>
+                                </div>
+                                <div class="cart-col t-goods">商品</div>
+                                <div class="cart-col t-props">货到付款</div>
+                                <div class="cart-col t-prices">单价(元)</div>
+                                <div class="cart-col t-quantity">数量</div>
+                                <div class="cart-col t-youhui">已优惠</div>
+                                <div class="cart-col t-sum">小计(元)</div>
+                                <div class="cart-col t-action">操作</div>
+                            </div>
+                            <div id="cart-list">
+                                <div class="cart-item-list">
+                                    <div class="cart-tbody">
+                           
+                                        <div class="item-list">
+                                      
+                                            <div class="goods-item goods-item-sele" style="display: none;">
+                                                <div class="goods-info">
+                                                    <div class="cell b-checkbox">
+                                                        <div class="cart-checkbox">
+                                                            <input type="checkbox" checked="" name="" id="" value="" />
+                                                            <span class="line-circle"></span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="cell b-goods">
+                                                        <div class="goods-name">
+                                                            <div class="goods-msg">
+                                                                <div class="goods-d-info">
+                                                                    <a href=""></a>
+                                                                </div>
+                                                                <div class="goods-ex">
+                                                                    <span class="promise"></span>
+                                                                    <span class="promise">
+																			<i></i><a href="">下单立减10元</a>
+																		</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="cell b-props">
+                                                        <div class="prop-text">支持</div>
+                                                    </div>
+                                                    <div class="cell b-price">
+                                                        <strong></strong>
+                                                        <div class="sales-promotion-dropdown">
+                                                        </div>
+                                                    </div>
+                                                    <div class="cell b-quantity">
+                                                        <div class="quantity-form">
+                                                            <a class="quantity-down" href="javascript:void(0)">-</a>
+                                                            <input type="text" value="1" />
+                                                            <a class="quantity-add" href="javascript:void(0)">+</a>
+                                                        </div>
+                                                        <div class="quantity-text">有货</div>
+                                                    </div>
+                                                     <div class="yh">￥100.00</div>
+                                                     <div class="cell b-sum">
+                                                        <strong></strong>
+                                                    </div>
+                                                    <div class="cell b-action">
+                                                        <a href="javascript:void(0)">删除</a><a href="javascript:void(0)">移到我的关注</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="cart-floatbar">
+                        <div class="select-all">
+                            <div class="cart-checkbox">
+                                <input type="checkbox" checked="" name="" id="" class="allsel" value="" /> 全选
+                            </div>
+                        </div>
+                        <div class="operation">
+                            <a href="javascript:void(0)">删除选中的商品</a><a href="javascript:void(0)">移到我的关注</a>
+                        </div>
+                        <div class="toolbar-right">
+                            <div class="btn-area">
+                                <a href=""></a>
+                            </div>
+                            <div class="price-sum">
+                                <span class="txt">总价（不含运费）：</span>
+                                <span class="totalprice">￥0.00</span>
+                                <span class="txt">已节省：</span>
+                                <span class="totalsave">￥400.00</span>
+                            </div>
+                            <div class="amount-sum">
+                              		  已选择
+                                <em>1</em> 件商品
+                                <b></b>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="goods-list goods-selected">
+                <ul>
+                  
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+		
+		<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/cart1.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
